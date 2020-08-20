@@ -1,0 +1,154 @@
+
+/* html{
+    scroll-behavior: smooth;
+} */
+header .nav-felipe{
+    background: #FFF;
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    z-index: 9;
+}
+
+header .nav-felipe .navbar-brand{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+button{
+    outline: none !important;
+}
+
+
+header .nav-felipe .navbar-collapse{
+    justify-content: flex-end;
+}
+
+header .nav-felipe .navbar-collapse li a{
+    color: #000;
+}
+
+header{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+header .text-hero {
+    margin: 150px 0 0;
+    padding-bottom: 150px;
+    position: relative;
+}
+header .text-hero h1{
+    color: #fff;
+    font-size: 50px;
+    
+}
+
+header .text-hero::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    background: rgb(194, 194, 0);
+    bottom: 150px;
+    
+}
+header .texto-flotante{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+header .texto-flotante h2{
+    color: #fff;
+}
+#seccion2{
+    width: 100%;
+    padding-bottom: 250px;
+    background: #1b2936;
+}
+
+#seccion2 .cont-item img{
+    max-width: 100%;
+}
+
+#seccion2 .cont-item{
+    background: #fff;
+    position: absolute;
+    top: -196px;
+}
+
+#seccion2 .cont-item .cont-text{
+    padding: 15px;
+}
+
+#seccion2 .cont-item .cont-text h3{
+    font-size: 22px;
+}
+
+#cardModal .modal-dialog{
+    max-width: 90%;
+}
+
+#cardModal .modal-dialog .modal-body img{
+    max-width: 100%;
+}
+#seccion3{
+    padding: 200px 0;
+}
+
+#seccion3 .nav-tabs .nav-link{
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    width: 200px;
+    height: 100px;
+    background: #2396bd;
+    margin-bottom: 4px;
+    color: #fff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#seccion4 {
+    padding: 40px;
+    background: #2396bd;
+}
+#seccion4 .tarjeta{  
+  width: 100%;
+  background:transparent;
+  text-align: center;
+  padding-bottom:  10px;  
+  margin: 0 10px;
+  outline: none;
+  border: 0 transparent;
+}
+#seccion4 .tarjeta .cont{ 
+    max-width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 10px;
+ }
+#seccion4 .tarjeta img{
+    max-width: 100%;
+}
+
+
+/*TABELT*/
+@media screen and (max-width: 768px) and (min-width: 501px){
+    #seccion2 .cont-item{
+        background: red;
+    }
+    #seccion2 .cont-item .cont-text h3{
+        color: #fff;
+    }
+}
+
+
+/*TELEFONO*/
+@media screen and (max-width: 500px) and (min-width: 320px){
+    #seccion2 .cont-item .cont-text button{
+        display: none;
+    }
+}
